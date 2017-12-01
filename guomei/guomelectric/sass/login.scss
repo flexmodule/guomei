@@ -1,0 +1,189 @@
+@import "public.scss";
+@import "headstyle.scss";
+@import "footstyle.scss";
+.margin{
+    width:1200px;
+}
+.logo{
+    a{
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    padding:10px 0;
+    .logotitle{
+        font:400 26px/120px "";
+        float:left;
+        width:135px;
+        padding:0 40px 0 0;
+        text-indent:-999px;
+        overflow: hidden;
+    }
+    .imglogo{
+        float:left;
+        margin-top:30px;
+    }
+}
+.login{
+    padding:10px 0;
+    background:#5fbcdf;
+    .margin{
+        height:480px;
+        background:url("//gfs13.gomein.net.cn/T1agKvBXxT1RCvBVdK.gif") no-repeat;
+        background-size: cover;
+        position:relative;
+    }
+    #login{
+        width:350px;
+        background:#fff;
+        position:absolute;
+        right:0;
+        top:95px;
+    }
+    .title-l,.title-r{
+        width:175px;
+        height:50px;
+        font:20px/50px "";
+        color:#333;
+        background:#fff;
+        cursor:pointer;
+        position:absolute;
+        text-align: center;
+        border-bottom:1px solid rgba(0,0,0,.1);
+    }
+    .title-l{
+        top:-50px;
+        left:0;
+    }
+    .title-r{
+        top:-50px;
+        left:175px;
+    }
+    
+     .active{
+            color:red;
+        }
+   .login-lt{
+       font:12px/20px "";
+       color:#829DAA;
+       .erweima{
+           text-align: center;
+           width:165px;
+           height:165px;
+           margin:30px auto 10px;
+           border:1px solid #BBBBBB;
+           img{
+               width:165px;
+               height:165px;
+           }
+       }
+      p{
+          text-align:center; 
+         &:nth-child(2){
+             a{
+                 color:red;
+             }
+         } 
+      }
+      h3{
+          font:12px/14px "";
+          padding-right:20px;
+          text-align: right;
+          margin-bottom:3px;
+          a{
+              color:#6294F6;
+          }
+      }
+   }
+   .login-l{
+       padding:5px 0;
+   }
+   .login-lb{
+       height:48px;
+       width:350px;
+       font:12px/48px "";
+       background:#fff;
+       -webkit-user-select: none;
+       position:absolute;
+       bottom:-48px;
+       left:0;
+       a{
+           color:#5e5e5e;
+           margin:0 10px;
+           &:hover{
+               color:red;
+               text-decoration: underline;
+           }
+       }
+       border-top:1px solid #f0f0f0;
+       .login-lb-t,.login-lb-b{
+           height:48px;
+       }
+       .login-lb-t{
+           i{
+               width:19px;
+               height:19px;
+               background:url(../images/login-bg-common.png) 0 0 no-repeat;
+           }
+       }
+       .login-lb-b{
+           position:absolute;
+           width:350px;
+           bottom:-48px;
+           left:0;
+           background:#fff;
+           display:none;
+       }
+   }
+   
+   .login-r{
+       padding:2px 28px 5px 28px;
+       display:none;
+       .dlinfo{
+           height:20px;
+           font:14px/20px "";
+           color:red;
+       }
+       .zhanghu,.mima{
+           width:288px;
+           height:40px;
+           border:1px solid #cccccc;
+           margin:5px 0;
+           text-indent:5px;
+       }
+       p{
+           &:nth-child(3){
+               font:12px/42px "";
+               color:#5e5e5e;
+               b{
+                   &:nth-child(1){
+                       float:left;
+                   }
+                    &:nth-child(2){
+                       float:right;
+                       a{
+                           margin:0 5px;
+                           color:#5E5E5E;
+                       }
+                   }
+               }
+           }
+           &:nth-child(5){
+               font:12px/48px "";
+               a{
+                   color:#2875cc;
+               }
+           }
+       }
+       .denglu{
+           width:288px;
+           height:40px;
+           background:#ff5757;
+           border:0;
+           color:#fff;
+           cursor: pointer;
+       }
+   }
+   
+   
+}

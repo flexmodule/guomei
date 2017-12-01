@@ -1,0 +1,84 @@
+.nav {
+  background: #f8f8f8;
+  border-bottom: 1px solid #dd00a7; }
+  .nav .margin {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap; }
+  .nav .total-kind {
+    width: 200px;
+    font: 600 15px/40px "";
+    padding-left: 10px;
+    box-sizing: border-box;
+    background: #f1f1f1; }
+    .nav .total-kind a {
+      color: #585858; }
+  .nav .nav-c li {
+    float: left; }
+    .nav .nav-c li:nth-child(1) a {
+      color: red; }
+    .nav .nav-c li:nth-child(2) a {
+      position: relative; }
+    .nav .nav-c li:nth-child(2) i {
+      position: absolute;
+      width: 1px;
+      height: 15px;
+      background: rgba(0, 0, 0, 0.2);
+      right: -4px;
+      top: 12px; }
+    .nav .nav-c li:nth-child(8) a {
+      position: relative; }
+    .nav .nav-c li:nth-child(8) i {
+      position: absolute;
+      width: 1px;
+      height: 15px;
+      background: rgba(0, 0, 0, 0.2);
+      right: 0;
+      top: 12px; }
+    .nav .nav-c li:nth-child(6) a {
+      position: relative; }
+    .nav .nav-c li:nth-child(6) span {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 20px;
+      height: 14px;
+      background: url(../images/ui.png) -150px -721px no-repeat; }
+    .nav .nav-c li a {
+      display: block;
+      font: 15px/40px "";
+      color: #333;
+      padding: 0 13px; }
+      .nav .nav-c li a:hover {
+        color: red; }
+  .nav .nav-lunbo ul {
+    width: 170px;
+    height: 40px;
+    float: left;
+    overflow: hidden; }
+    .nav .nav-lunbo ul li {
+      height: 40px;
+      width: 170px; }
+      .nav .nav-lunbo ul li a {
+        display: block; }
+        .nav .nav-lunbo ul li a img {
+          height: 40px;
+          width: 170px; }
+  .nav .nav-lunbo .btn {
+    float: left;
+    width: 13px;
+    margin: 14px 0 0 5px; }
+    .nav .nav-lunbo .btn a {
+      display: block;
+      height: 9px; }
+    .nav .nav-lunbo .btn #up {
+      background: url(../images/ui.png) -20px -1348px no-repeat;
+      width: 13px;
+      height: 5px;
+      margin-bottom: 5px; }
+    .nav .nav-lunbo .btn #down {
+      background: url(../images/ui.png) -20px -1353px no-repeat;
+      width: 13px;
+      height: 5px; }
+
+/*# sourceMappingURL=navstyle.css.map */
